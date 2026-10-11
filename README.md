@@ -46,7 +46,6 @@ Scheda: **Wemos D1 mini** (ESP8266) con modulo combinato **AHT20 + BMP280** (I2C
 
 - Alimenta il modulo a **3,3 V**.
 - Il case ([`case_3d`](case_3d)) tiene il sensore separato dal D1 mini: il calore della scheda falserebbe la temperatura.
-- ℹ️ Nell'articolo sono indicati i pin di un ESP32 (GPIO21/22): per questo sketch per **ESP8266** valgono i pin della tabella qui sopra.
 
 - Il Wemos D1 mini si alimenta dalla sua USB a 5 V; il modulo prende i 3,3 V dal pin **3V3**, non serve altro.
 - I moduli I2C hanno già le resistenze di pull-up a bordo: non servono resistenze esterne.
