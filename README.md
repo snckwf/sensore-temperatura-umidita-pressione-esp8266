@@ -33,6 +33,21 @@ Componenti tipici:
 - eventuale case stampato in 3D
 - cavi Dupont e basetta di supporto
 
+## Collegamenti elettrici
+
+Scheda: **Wemos D1 mini** (ESP8266) con modulo combinato **AHT20 + BMP280** (I2C). Pin verificati sullo sketch (`I2C_SDA 4`, `I2C_SCL 5`, `Wire.begin(I2C_SDA, I2C_SCL)`).
+
+| Wemos D1 mini | Modulo AHT20 + BMP280 |
+|---|---|
+| **3V3** | VCC (VIN) |
+| **GND** | GND |
+| **D2 / GPIO4** | SDA |
+| **D1 / GPIO5** | SCL |
+
+- Alimenta il modulo a **3,3 V**.
+- Il case ([`case_3d`](case_3d)) tiene il sensore separato dal D1 mini: il calore della scheda falserebbe la temperatura.
+- ℹ️ Nell'articolo sono indicati i pin di un ESP32 (GPIO21/22): per questo sketch per **ESP8266** valgono i pin della tabella qui sopra.
+
 ## Contenuto del repository
 
 | Percorso | Descrizione |
