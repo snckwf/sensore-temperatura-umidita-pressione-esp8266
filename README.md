@@ -5,7 +5,7 @@
 >
 > Altri progetti di elettronica, Arduino, ESP32, Home Assistant e stampa 3D su **[www.emgi.it](https://www.emgi.it)**
 
-![Sensore Temperature, Umidità e Pressione per Home Assistant](immagini/cover-2026-sensore-temperature-umidita-e-pressione-per-home-assistant.png)
+![Sensore Temperature, Umidità e Pressione per Home Assistant](immagini/copertina-3d.jpg)
 
 Questo progetto si integra in Home Assistant. Se non l’hai ancora installato, parti dalla guida [Come installare Home Assistant su Raspberry Pi 4, 5 e Zero](https://www.emgi.it/2026/04/14/installare-home-assistant-su-raspberry-pi/).
 
